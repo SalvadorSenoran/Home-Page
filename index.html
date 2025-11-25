@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Linking Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen'></i>
+            <span class="logo navLogo"><a href="#">KoolitzArt</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">KoolitzArt</a></span>
+                    <i class='bx bx-x sidebarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#">MY CLASSROOM</a></li>
+                    <li><a href="#">FREE RESOURCES</a></li>
+                    <li><a href="#">RECOMMENDATIONS</a></li>
+                </ul>
+            </div>
+
+            <div class="searchBox">
+                <i class='bx bx-search search'></i>
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="darkMode">
+                <div class="dark-mode">
+                    <i class='bx bxs-moon moon'></i>
+                    <i class='bx bxs-sun sun'></i>
+                </div>
+
+                <ul class="application-links">
+                    <li><a href="#">LOG IN</a></li>
+                    <li><a href="#">SIGN UP</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container swiper">
+    <div class="wrapper">
+      <div class="card_list swiper-wrapper">
+        <div class="card swiper-slide">
+          <div class="card_image">
+            <img src="card slider images/drawing-basics.jpg" alt="Drawing Basics Image">
+            <p class="card_tag">LINEWORK</p>
+          </div>
+          <div class="card_content">
+            <div class="card_footer">
+              <a href="#white-banner" class="card_button">Start Learning</a>
+              <a href="#white-banner" class="card_button2">Preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="card_image">
+            <img src="card slider images/figures.jpg" alt="Shaped Design">
+            <p class="card_tag">SHAPE DESIGN</p>
+          </div>
+          <div class="card_content">
+            <div class="card_footer">
+              <a href="#white-banner" class="card_button">Start Learning</a>
+              <a href="#white-banner" class="card_button2">Preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="card_image">
+            <img src="card slider images/anatomies.jpg" alt="Simple Anatomy">
+            <p class="card_tag">SIMPLE ANATOMY</p>
+          </div>
+          <div class="card_content">
+            <div class="card_footer">
+              <a href="#white-banner" class="card_button">Start Learning</a>
+              <a href="#white-banner" class="card_button2">Preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="card_image">
+            <img src="card slider images/perspective.jpg" alt="Perspective">
+            <p class="card_tag">PERSPECTIVE</p>
+          </div>
+          <div class="card_content">
+            <div class="card_footer">
+              <a href="#white-banner" class="card_button">Start Learning</a>
+              <a href="#white-banner" class="card_button2">Preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="card_image">
+            <img src="card slider images/heads.jpg" alt="Perspective">
+            <p class="card_tag">FACE / HEAD</p>
+          </div>
+          <div class="card_content">
+            <div class="card_footer">
+              <a href="#white-banner" class="card_button">Start Learning</a>
+              <a href="#white-banner" class="card_button2">Preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="card_image">
+            <img src="card slider images/shading.jpg" alt="Perspective">
+            <p class="card_tag">SHADING</p>
+          </div>
+          <div class="card_content">
+            <div class="card_footer">
+              <a href="#white-banner" class="card_button">Start Learning</a>
+              <a href="#white-banner" class="card_button2">Preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="card_image">
+            <img src="card slider images/composition.jpg" alt="Perspective">
+            <p class="card_tag">COMPOSITION</p>
+          </div>
+          <div class="card_content">
+            <div class="card_footer">
+              <a href="#white-banner" class="card_button">Start Learning</a>
+              <a href="#white-banner" class="card_button2">Preview</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+    </div>
+
+    <div class="white-banner" id="white-banner">
+      <div class="website-info">
+        <h2>LEARN WHILE HAVING FUN</h2>
+      </div>
+      <div class="website-subinfo">
+        <p>
+          Our lessons are exciting, interactive, and educational.<br>Because the best learning happens when you’re enjoying yourself!
+        </p>
+      </div>
+    </div>
+
+    <div class="gray-banner" id="gray-banner">
+      <div class="container1">
+        <input type="radio" name="option" id="1"/>
+        <label for="1">
+            <div class="tab-name1">Lines</div>
+            <div class="tab-content1">
+                <div class="wrapper1">
+                    <div class="card-list1">
+                        <div class="card1">
+                            <div class="card-img1">
+                                <img src="tab content images/line3.jpg" alt="Frog">
+                                <a href="#" class="card-tag1">8:09 MINUTES</a>
+                            </div>
+                            <div class="card-content1">
+                                <h3 class="card-title1">Draw like a Sir</h3>
+                                <p class="card-text1">
+                                    This tutorial uses a simple circle to illustrate four common mistakes, then demonstrates solutions.
+                                </p>
+                                <div class="card-footer1">
+                                    <a href="https://www.youtube.com/watch?v=O61NED7VZIc&t=140s" class="card-button1">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card1">
+                            <div class="card-img1">
+                                <img src="tab content images/line1.jpg" alt="Frog">
+                                <a href="#" class="card-tag1">9:57 MINUTES</a>
+                            </div>
+                            <div class="card-content1">
+                                <h3 class="card-title1">Proko</h3>
+                                <p class="card-text1">
+                                    This tutorial covers finding a comfortable drawing speed and the importance of follow-through.
+                                </p>
+                                <div class="card-footer1">
+                                    <a href="https://www.youtube.com/watch?v=lTslVOUJ0jI&t=420s" class="card-button1">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card1">
+                            <div class="card-img1">
+                                <img src="tab content images/line2.jpg" alt="Frog">
+                                <a href="#" class="card-tag1">21:05 MINUTES</a>
+                            </div>
+                            <div class="card-content1">
+                                <h3 class="card-title1">The Pencil Room Online</h3>
+                                <p class="card-text1">
+                                    The instructor, Emily, guides viewers through a series of exercises focusing on different types of lines and hand movements.
+                                </p>
+                                <div class="card-footer1">
+                                    <a href="https://www.youtube.com/watch?v=ing1x95WZ_I&t=598s" class="card-button1">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </label>
+
+        <input type="radio" name="option" id="2"/>
+        <label for="2">
+            <div class="tab-name1">Shapes</div>
+            <div class="tab-content1">
+              <div class="wrapper1">
+                <div class="card-list1">
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/shape3.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">7:43 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">Marc Brunet</h3>
+                      <p class="card-text1">
+                                    Marc Brunet demonstrates how to build spatial awareness using basic shapes, then deforms them to understand form and finally, carves them to create complex structures.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=WUcYTAiCQyQ&t=258s" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/shape2.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">5:46 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">Bluebiscuits</h3>
+                      <p class="card-text1">
+                                    This tutorial explains "form" as a key element, showing how simple shapes transform into complex 3D forms using perspective and lighting.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=kheLUr5wiwA&t=268s" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/shape1.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">6:16 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">KeshArt</h3>
+                      <p class="card-text1">
+                                    This tutorial progresses from basic lines to complex shape breakdowns, building drawing skills progressively.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=UOC8ISSbFx0&t=52s" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </label>
+
+        <input type="radio" name="option" id="3"/>
+        <label for="3">
+            <div class="tab-name1">Anatomy</div>
+            <div class="tab-content1">
+              <div class="wrapper1">
+                <div class="card-list1">
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/anatomy1.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">9:59 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">Draw like a Sir</h3>
+                      <p class="card-text1">
+                                    This tutorial uses advanced shapes to build a body from a basic stick figure, focusing on correct proportions.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=9m4Hf_6U4Rc&t=1s" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/anatomy3.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">16:59 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">Shanspirational</h3>
+                      <p class="card-text1">
+                                    Shanspirational simplifies the process using basic shapes, demonstrating front, side, and three-quarter views.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=AmoW_LqwQ40&t=120s" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/anatomy2.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">9:10 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">The Art Of Nemo</h3>
+                      <p class="card-text1">
+                                    This tutorial uses boxes and cylinders to build a foundational figure, demonstrating key proportions and joint orientation.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=2DVbargQCaY&t=1s" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </label>
+
+        <input type="radio" name="option" id="4"/>
+        <label for="4">
+            <div class="tab-name1">Perspective</div>
+            <div class="tab-content1">
+              <div class="wrapper1">
+                <div class="card-list1">
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/perspective1.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">10:14 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">Brad's Art School</h3>
+                      <p class="card-text1">
+                                    The instructor uses a combination of animation and real-life examples to explain one-point, two-point, and three-point perspective.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=qq8SO9tMI8k" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/perspective3.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">16:37 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">Draw like a Sir</h3>
+                      <p class="card-text1">
+                                    This video teaches the basics of perspective drawing using vanishing points.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=rFFX4R0lyv4&t=519s" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/perspective2.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">13:55 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">Proko</h3>
+                      <p class="card-text1">
+                                    The lesson demonstrates drawing boxes in various positions, exploring the technique's limitations.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=BYlW8XC0MlI" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+                  
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/perspective4.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">7:27 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">SamDoesArts</h3>
+                      <p class="card-text1">
+                                    This tutorial demonstrates creating cubes and other shapes using one-, two-, and three-point perspective.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=g9ge4XBNRwA&t=174s" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </label>
+
+        <input type="radio" name="option" id="5"/>
+        <label for="5">
+            <div class="tab-name1">Head</div>
+            <div class="tab-content1">
+              <div class="wrapper1">
+                <div class="card-list1">
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/head1.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">9:32 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">Robert Marzullo</h3>
+                      <p class="card-text1">
+                                    The video teaches a method for drawing heads by dividing the face into three main sections.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=FUJZUZRmNUE&t=53s" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/head2.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">8:05 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">Sinix Design</h3>
+                      <p class="card-text1">
+                                    Sinix Design breaks down the process into manageable levels, starting with simple shapes.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=QBv5z0Y2odE" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/head3.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">17:49 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">Draw like a Sir</h3>
+                      <p class="card-text1">
+                                    This video teaches viewers how to draw heads using the Loomis method.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=A6KMT4Potss" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </label>
+
+        <input type="radio" name="option" id="6"/>
+        <label for="6">
+            <div class="tab-name1">Shading</div>
+            <div class="tab-content1">
+              <div class="wrapper1">
+                <div class="card-list1">
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/shading1.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">8:01 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">Draw like a Sir</h3>
+                      <p class="card-text1">
+                                    This video teaches the basics of light and shadow in drawing, using animation and real-life examples.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=8SZONs9hiRc&t=248s" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/shading2.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">5:18 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">Drawing Explained</h3>
+                      <p class="card-text1">
+                                    This video teaches five basic shading techniques for beginners, using a sphere as a demonstration.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=225mwT-gGu8" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </label>
+
+        <input type="radio" name="option" id="7"/>
+        <label for="7">
+            <div class="tab-name1">Composition</div>
+            <div class="tab-content1">
+              <div class="wrapper1">
+                <div class="card-list1">
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/composition1.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">12:01 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">Proko</h3>
+                      <p class="card-text1">
+                                    This tutorial covers the rule of thirds and compositional shapes.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=5KX7WpRVtVU" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/composition2.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">6:05 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">Artwod</h3>
+                      <p class="card-text1">
+                                    The video uses visual examples to illustrate how to balance a canvas and create visual weight.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=te9Efr1VT9U" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="card1">
+                    <div class="card-img1">
+                      <img src="tab content images/composition3.jpg" alt="Frog">
+                      <a href="#" class="card-tag1">7:48 MINUTES</a>
+                    </div>
+                    <div class="card-content1">
+                      <h3 class="card-title1">TobySketchLoose - Artist and Urban Sketcher</h3>
+                      <p class="card-text1">
+                                    This video explores six ways to choose a focal point in your drawings, using examples like the rule of thirds, the golden spiral, and letter shapes.
+                      </p>
+                    <div class="card-footer1">
+                      <a href="https://www.youtube.com/watch?v=XQrEpYBg0c4" class="card-button1">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </label>
+    </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container2">
+        <div class="row">
+          <div class="footer_col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">terms of use</a></li>
+              <li><a href="#">help center</a></li>
+            </ul>
+          </div>
+
+          <div class="footer_col">
+            <h4>follow us</h4>
+            <div class="social_links">
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Linking Swiper Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
