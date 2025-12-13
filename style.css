@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 
-/* Colours */
+/* Light Mode Colours */
 :root {
     --body-color: #242424;
     --secondary-body: #eeeeee;
@@ -26,13 +26,21 @@
     --hover-color: #eaeaea;
     --secondary-button: #ffffff;
     --secondary-hover: #303030;
+    --form-color: #dfdfdf;
+    --tertiary-body: #eeeeee;
+    --secondary-form: #ffffff;
+    --input-color: #eaeaea;
+    --border-color: #dfdfdf;
+    --secondary-border: #c7c7c7;
 }
+/* Light Mode Colours */
 
 body {
     height: 100vh;
     background-color: var(--body-color);
 }
 
+/* Dark Mode Colours */
 body.dark {
     --body-color: #151515;
     --secondary-body: #1a1a1a;
@@ -45,8 +53,16 @@ body.dark {
     --hover-color: #3f3f3f;
     --secondary-button: #151515;
     --secondary-hover: #151515;
+    --form-color: #1a1a1a;
+    --tertiary-body: #151515;
+    --secondary-form: #242424;
+    --input-color: #303030;
+    --border-color: #303030;
+    --secondary-border: #4f4f4f;
 }
+/* Dark Mode Colours */
 
+/* Navigation Bar */
 nav {
     position: fixed;
     top: 0;
@@ -264,7 +280,9 @@ nav .nav-bar .logo a {
         display: block;
     }
 }
+/* Navigation Bar */
 
+/* Home Page */
 /* Card Slider */
 .wrapper {
     max-width: 1450px;
@@ -548,6 +566,310 @@ input:checked + label .tab-content1 {
 }
 /* Card Content */
 /* Tab w Content */
+/* Home Page */
+
+/* Second Page */
+/* Form */
+/* Form 1*/
+.Tbody {
+    height: 900px;
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--tertiary-body);
+}
+
+.mainformer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.former {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    max-width: 1230px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 100px 0 0;
+    margin: 20px 0;
+    background: var(--form-color);
+}
+
+.mainformer header {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.mainformer form {
+    position: relative;
+    margin-top: 16px;
+    min-height: 445px;
+    background-color: var(--secondary-form);
+    padding: 20px 30px 0 30px;
+}
+
+.form {
+    display: flex;
+}
+
+.mainformer form .details {
+    width: 50%;
+}
+
+.mainformer form .title {
+    font-family: "Poppins", sans-serif;
+    display: block;
+    margin-bottom: 8px;
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0px 0px 5px;
+}
+
+.mainformer form .fields {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .fields .input-field {
+    display: flex;
+    color: #7f7f7f;
+    width: calc(100% / 2 - 10px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+form .fields #input-field1 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+.textarea1 {
+    resize: none;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7f7f7f;
+    background-color: var(--input-color);
+    border-radius: 7px;
+    border: 1px solid transparent;
+    padding: 10px 15px;
+    width: 100%;
+    height: 86px;
+    margin: 8px 0;
+    transition: all 0.3s;
+}
+
+.textarea1:focus {
+    cursor: text;
+    color: var(--text-color);
+    border-color: var(--secondary-border);
+}
+
+.input-field label {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.input-field input {
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7f7f7f;
+    background-color: var(--input-color);
+    border-radius: 7px;
+    border: 1px solid transparent;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+    transition: all 0.3s;
+}
+
+.input-field input:focus {
+    cursor: text;
+    color: var(--text-color);
+    border-color: var(--secondary-border);
+}
+
+.form1 {
+    width: 50%;
+    height: 400px;
+    background-color: var(--secondary-form);
+    padding: 29px 0 0 29px;
+}
+
+form .fields #input-field2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+.textarea {
+    resize: none;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7f7f7f;
+    background-color: var(--input-color);
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 10px 15px;
+    width: 100%;
+    height: 339px;
+    margin: 8px 0;
+    transition: all 0.3s;
+}
+
+.textarea:focus {
+    cursor: text;
+    color: var(--text-color);
+    border-color: var(--secondary-border);
+}
+
+.former1 {
+    position: relative;
+    max-width: 2000px;
+    width: 100%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 30px 30px;
+    background: var(--secondary-form);
+    border-top: 2px solid var(--border-color);
+}
+/* Form 1*/
+/* Form Tabs */
+section {
+    font-family: "Poppins", sans-serif;
+    margin: 100px 140px;
+    max-width: 1215px;
+    width: 100%;
+    min-height: 300px;
+}
+
+section input[type="radio"] {
+    display: none;
+}
+
+section .tabby {
+    padding: 10px 60px;
+    background-color: var(--nav-color);
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    color: var(--text-color);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tab-contenty {
+    display: none;
+    margin: 20px 0;
+}
+
+section input[type="radio"]:checked+label {
+    background-color: #ffd910;
+    color: var(--secondary-button);
+}
+
+#tab1:checked~#content1,
+#tab2:checked~#content2,
+#tab3:checked~#content3 {
+    display: block;
+}
+/* Form Tabs */
+/* Form Buttons */
+.former1 .submitbtn {
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    background: #ffd910;
+    transition: all 0.3s ease;
+}
+
+.former1 .submitbtn:hover {
+    color: var(--secondary-hover);
+}
+/* Form Buttons */
+/* Form 2 */
+#formery1 {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    max-width: 1230px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 0 0;
+    margin: 20px 0;
+    background: var(--secondary-form);
+}
+
+.mainformer #former1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--text-color);
+    padding: 10px 30px 15px;
+}
+/* Form Checkboxes */
+.center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menue {
+    width: 100%;
+}
+
+.listy {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px 20px;
+}
+
+.listy label {
+    padding: 5px 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--secondary-border);
+    background-color: var(--input-color);
+    border: none;
+    border-radius: 10px;
+    margin: 5px 10px 10px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.listy label:hover {
+    color: var(--text-color);
+}
+
+.listy input {
+    display: none;
+}
+
+.listy input:checked+label {
+    color: var(--secondary-button);
+    border-color: rgb(15, 150, 255);
+    background: #ffd910;
+}
+/* Form Checkboxes */
+/* Form 2 */
+/* Form */
+/* Second Page */
 
 /* Footer */
 .container2 {
