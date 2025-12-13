@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Linking Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen'></i>
+            <span class="logo navLogo"><a href="index.html">KoolitzArt</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">KoolitzArt</a></span>
+                    <i class='bx bx-x sidebarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#">MY CLASSROOM</a></li>
+                    <li><a href="#">FREE RESOURCES</a></li>
+                    <li><a href="#">RECOMMENDATIONS</a></li>
+                </ul>
+            </div>
+
+            <div class="searchBox">
+                <i class='bx bx-search search'></i>
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="darkMode">
+                <div class="dark-mode">
+                    <i class='bx bxs-moon moon'></i>
+                    <i class='bx bxs-sun sun'></i>
+                </div>
+
+                <ul class="application-links">
+                    <li><a href="#">LOG IN</a></li>
+                    <li><a href="#">SIGN UP</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="Tbody">
+        <section>
+            <input type="radio" name="tabs" id="tab1" checked>
+            <label class="tabby" for="tab1">Profile Details</label>
+
+            <input type="radio" name="tabs" id="tab2">
+            <label class="tabby" for="tab2">Interest</label>
+
+            <div class="tab-contenty" id="content1">
+                <div class="mainformer">
+                    <div class="former">
+                        <header></header>
+
+                        <form action="#">
+                            <div class="form first">
+                                <div class="details personal">
+                                    <span class="title">PERSONAL DETAILS</span>
+
+                                    <div class="fields">
+                                        <div class="input-field">
+                                            <label>First Name</label>
+                                            <input type="text">
+                                        </div>
+
+                                        <div class="input-field">
+                                            <label>Last Name</label>
+                                            <input type="text">
+                                        </div>
+
+                                        <div class="input-field">
+                                            <label>Location</label>
+                                            <input type="text">
+                                        </div>
+
+                                        <div class="input-field">
+                                            <label>Art Level</label>
+                                            <input type="text">
+                                        </div>
+
+                                        <div id="input-field1" class="input-field">
+                                            <label>Bio</label>
+                                            <textarea class="textarea1" maxlength="150"
+                                                placeholder="1 - 150 words only"></textarea>
+                                        </div>
+
+                                        <div class="input-field">
+                                            <label>Facebook</label>
+                                            <input type="text">
+                                        </div>
+
+                                        <div class="input-field">
+                                            <label>Instagram</label>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form1">
+                                    <div class="fields">
+                                        <div class="input-field" id="input-field2">
+                                            <label>Comment</label>
+                                            <textarea class="textarea"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="former1">
+                            <a href="#" class="submitbtn">Submit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-contenty" id="content2">
+                <div class="mainformer">
+                    <div class="former" id="formery1">
+                        <header id="former1">CHOOSE YOUR INTERESTS</header>
+                        <div class="center">
+                            <div class="menue">
+                                <div class="listy">
+                                    <input type="checkbox" name="role" id="opt1" />
+                                    <label for="opt1"> Anatomy </label>
+                                    <input type="checkbox" name="role" id="opt2" />
+                                    <label for="opt2"> Animals </label>
+                                    <input type="checkbox" name="role" id="opt3" />
+                                    <label for="opt3"> Creatures </label>
+                                    <input type="checkbox" name="role" id="opt4" />
+                                    <label for="opt4"> Animation </label>
+                                    <input type="checkbox" name="role" id="opt5" />
+                                    <label for="opt5"> Caricature </label>
+                                    <input type="checkbox" name="role" id="opt6" />
+                                    <label for="opt6"> Character Design </label>
+                                    <input type="checkbox" name="role" id="opt7" />
+                                    <label for="opt7"> Comics </label>
+                                    <input type="checkbox" name="role" id="opt8" />
+                                    <label for="opt8"> Composition </label>
+                                    <input type="checkbox" name="role" id="opt9" />
+                                    <label for="opt9"> Digital </label>
+                                    <input type="checkbox" name="role" id="opt10" />
+                                    <label for="opt10"> Environments </label>
+                                    <input type="checkbox" name="role" id="opt11" />
+                                    <label for="opt11"> Figure </label>
+                                    <input type="checkbox" name="role" id="opt12" />
+                                    <label for="opt12"> Fundamentals </label>
+                                    <input type="checkbox" name="role" id="opt13" />
+                                    <label for="opt13"> Gouache </label>
+                                    <input type="checkbox" name="role" id="opt14" />
+                                    <label for="opt14"> Illustration </label>
+                                    <input type="checkbox" name="role" id="opt14" />
+                                    <label for="opt14"> Inking </label>
+                                    <input type="checkbox" name="role" id="opt15" />
+                                    <label for="opt15"> Pastel </label>
+                                    <input type="checkbox" name="role" id="opt16" />
+                                    <label for="opt16"> Painting </label>
+                                    <input type="checkbox" name="role" id="opt17" />
+                                    <label for="opt17"> Portrait/Head </label>
+                                    <input type="checkbox" name="role" id="opt18" />
+                                    <label for="opt18"> 3D </label>
+                                    <input type="checkbox" name="role" id="opt19" />
+                                    <label for="opt19"> Shading </label>
+                                    <input type="checkbox" name="role" id="opt20" />
+                                    <label for="opt20"> Sketching </label>
+                                    <input type="checkbox" name="role" id="opt21" />
+                                    <label for="opt21"> Storytelling </label>
+                                    <input type="checkbox" name="role" id="opt22" />
+                                    <label for="opt22"> Watercolor </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="former1">
+                            <a href="#" class="submitbtn">Submit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+      <div class="container2">
+        <div class="row">
+          <div class="footer_col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">terms of use</a></li>
+              <li><a href="#">help center</a></li>
+            </ul>
+          </div>
+
+          <div class="footer_col">
+            <h4>follow us</h4>
+            <div class="social_links">
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
