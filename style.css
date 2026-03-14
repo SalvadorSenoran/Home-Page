@@ -1021,6 +1021,135 @@ section input[type="radio"]:checked+label {
 }
 /* Third Page */
 
+/* Fourth Page */
+/* Gray Banner 2 */
+.gray-Banner {
+    height: 510px;
+    width: auto;
+    padding: 90px 0px 0px 60px;
+    background-color: var(--secondary-body);
+}
+/* Gray Banner 2 */
+
+/* Tab w Content 2 */
+.conTainer1 {
+    height: 45px;
+    width: auto;
+    display: flex;
+    position: relative;
+}
+
+.conTainer1 input {
+    display: none;
+}
+
+.tabby-Name1 {
+    color: var(--text-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    height: 45px;
+    background: var(--nav-color);
+    padding: 10px 60px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input:checked + label .tabby-Name1 {
+    font-weight: 900;
+}
+
+.tabby-Content1 {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+input:checked + label .tabby-Content1 {
+    opacity: 1;
+    z-index: 1;
+}
+/* Card Content 2 */
+.card-List1 {
+    display: flex;
+    gap: 10px;
+    width: 1395px;
+}
+
+.wRapper1 .cardy1 {
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: var(--nav-color);
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.wRapper1 .card1:hover {
+    transform: translateY(-10px);
+}
+
+.cardy1 .cardy-Content1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 25px 25px;
+}
+
+.cardy1 .cardy-Content1 .card-title1 {
+    color: var(--text-color);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.cardy1 .cardy-Content1 .card-text1 {
+    color: #747474;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+
+.cardy1 .cardy-img1 img {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 22px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.cardy1 .cardy-Footer1 .cardy-Button1 {
+    color: #ffffff;
+    padding: 10px 40px;
+    margin-left: 100px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    background: #ffd910;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease;
+}
+
+.cardy1 .cardy-Footer1 .cardy-Button1:hover {
+    color: var(--secondary-hover);
+}
+/* Card Content 2 */
+/* Tab w Content 2 */
+/* Fourth Page */
+
 /* Footer */
 .container2 {
     max-width: 1260px;
